@@ -55,7 +55,7 @@ class LoginScreen extends StatelessWidget{
           )),
          color: Colors.blue,
          onPressed: (){
-          Navigator.of(context).pushNamed('/chat');
+          Navigator.of(context).pushNamed('/');
          }
         )
        ],
